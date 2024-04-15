@@ -24,3 +24,5 @@ Enter a number: 5
 Enter a number: 4.0
 4.0 is a positive integer
 """
+
+x=float(print("Enter the distance from the sun in AU: "))

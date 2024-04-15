@@ -31,3 +31,6 @@ Enter a number: 8
 Enter a number: 64
 64 is both a perfect square and divisible by 2.
 """
+
+x=float(print("Enter the distance from the sun in AU: "))
+
