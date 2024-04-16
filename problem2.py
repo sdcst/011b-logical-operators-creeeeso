@@ -27,8 +27,8 @@ Enter another number: 25
 4 is not a factor of 25
 """
 
-x=int(print("Enter a number: "))
-y=int(print("Enter another number: "))
+x=int(input("Enter a number: "))
+y=int(input("Enter another number: "))
 
 if x > y and x % y == 0:
     print(f"{y} is a factor of {x}")

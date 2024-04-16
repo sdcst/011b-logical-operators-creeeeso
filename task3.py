@@ -25,4 +25,8 @@ Enter a number: 4.0
 4.0 is a positive integer
 """
 
-x=float(print("Enter the distance from the sun in AU: "))
+a = float(input("Enter a number: "))
+if a-a == 0 and round(a) == a:
+    print(f"{a} is a positive integer")
+else:
+    print(f"{a} is not a positive integer")

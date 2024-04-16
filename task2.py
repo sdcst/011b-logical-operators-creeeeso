@@ -32,5 +32,10 @@ Enter a number: 64
 64 is both a perfect square and divisible by 2.
 """
 
-x=float(print("Enter the distance from the sun in AU: "))
-
+a = int(input("Enter a number: "))
+if a % 2 == 0 and round(a**0.5) == a**0.5:
+    print(f"{a} is both a perfect square and divisible by 2.")
+elif a % 2 == 0:
+    print(f"{a} is only divisible by 2.")
+elif round(a**0.5) == a**0.5:
+    print(f"{a} is only a perfect square.")
